@@ -28,6 +28,8 @@ function chg_lang(lang_index){
       changeCSSTag_Multi_Lang(lang_index);
       //更改Navbar文件
       changeNavBarUIWording(lang_index);
+      //根據語系更改圖片
+      changeImageByLang(lang_index);
 
 
       //讀外部JSON檔案
@@ -94,6 +96,7 @@ function changeImageByLang(lang_index){
 
         console.log("english image now");
       break;
+
     default:
       document.getElementById('lang_ces').src = "images/ces_banner.png" ;
 
