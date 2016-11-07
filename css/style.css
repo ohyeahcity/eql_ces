@@ -1835,11 +1835,10 @@ h1 { font-size:60px; color:#666; }
 .ces{
 	margin: 0 auto;
 	padding: 0;
-
 	background-image:url(../images/ces_banner_bg.jpg);
   background-position: center center;
   background-size: cover;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 
 }
@@ -1848,6 +1847,60 @@ h1 { font-size:60px; color:#666; }
 	min-height: 180px;
 }
 
+.ces_min{
+	margin: 0 auto;
+	padding: 0;
+	background-image:url(../images/ces_banner_bg_min.jpg);
+	background-position: center center;
+	background-size: cover;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.ces_min .col-md-6 {
+	margin-bottom: 0px;
+	min-height: 180px;
+}
+
+@media(max-width:499px){
+
+  .ces{
+    display: none;
+  }
+  .ces_min{
+    display: block;
+  }
+}
+
+@media(min-width:500px){
+
+  .ces{
+    display: block;
+  }
+  .ces_min{
+    display: none;
+  }
+}
+
+@media(min-width:993px){
+
+  .ces{
+    display:block;
+  }
+  .ces_min{
+    display: none;
+  }
+
+}
+@media(min-width:1200px){
+
+  .ces{
+    display:block;
+  }
+  .ces_min{
+    display: none;
+  }
+
+}
 /***************---------dropdown子選單----------****************/
 .dropdown-submenu{position:relative;}
 .dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;}

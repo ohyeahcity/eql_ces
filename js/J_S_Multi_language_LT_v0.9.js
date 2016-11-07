@@ -87,19 +87,19 @@ function changeImageByLang(lang_index){
   switch (lang_index) {
     case 0:
           document.getElementById('lang_ces').src = "images/ces_banner.png" ;
-
+          document.getElementById('lang_ces_min').src = "images/ces_banner_min.png" ;
           console.log("image is cht");
 
       break;
     case 1:
         document.getElementById('lang_ces').src = "images/ces_banner_eng.png" ;
-
+        document.getElementById('lang_ces_min').src = "images/ces_banner_eng_min.png" ;
         console.log("english image now");
       break;
 
     default:
       document.getElementById('lang_ces').src = "images/ces_banner.png" ;
-
+      document.getElementById('lang_ces_min').src = "images/ces_banner_min.png" ;
       console.log("image is default cht");
       break;
 
